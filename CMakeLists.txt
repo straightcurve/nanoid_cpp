@@ -7,8 +7,8 @@ set(CMAKE_CXX_STANDARD 11)
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
 
-option(BUILD_TESTS "Build nanoid unit tests" ON)
-option(BUILD_EXAMPLES "Build nanoid usage examples" ON)
+option(BUILD_TESTS "Build nanoid unit tests" OFF)
+option(BUILD_EXAMPLES "Build nanoid usage examples" OFF)
 
 add_subdirectory(vendor/catch2)
 
